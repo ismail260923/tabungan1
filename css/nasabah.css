@@ -1,0 +1,194 @@
+/* Nasabah Panel Styles */
+.nasabah-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.saldo-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saldo-info p {
+    font-size: 1.1em;
+    opacity: 0.9;
+    margin-bottom: 5px;
+}
+
+.saldo-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.saldo-info small {
+    opacity: 0.8;
+}
+
+.saldo-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin-right: 15px;
+}
+
+.stat-icon.setor {
+    background: #c6f6d5;
+    color: #22543d;
+}
+
+.stat-icon.tarik {
+    background: #feebc8;
+    color: #744210;
+}
+
+.stat-detail h3 {
+    font-size: 1.8em;
+    margin-bottom: 2px;
+}
+
+.stat-detail p {
+    color: #718096;
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+
+.stat-detail small {
+    color: #a0aec0;
+    font-size: 0.8em;
+}
+
+.chart-mini {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.history-card {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaksi-list {
+    padding: 0 20px;
+}
+
+.transaksi-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.transaksi-item:last-child {
+    border-bottom: none;
+}
+
+.transaksi-icon {
+    width: 40px;
+    height: 40px;
+    background: #f7fafc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.transaksi-detail {
+    flex: 1;
+}
+
+.transaksi-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.transaksi-jenis {
+    font-weight: bold;
+}
+
+.transaksi-item.setor .transaksi-jenis {
+    color: #48bb78;
+}
+
+.transaksi-item.tarik .transaksi-jenis {
+    color: #ed8936;
+}
+
+.transaksi-nominal {
+    font-weight: bold;
+}
+
+.transaksi-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #a0aec0;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.empty-state p {
+    color: #a0aec0;
+    margin-bottom: 20px;
+}
+
+.info-penting {
+    background: #fffff0;
+    border: 1px solid #faf089;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.info-penting h4 {
+    color: #744210;
+    margin-bottom: 10px;
+}
+
+.info-penting ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #744210;
+}
+
+.info-penting li {
+    margin-bottom: 5px;
+}

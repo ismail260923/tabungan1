@@ -1,0 +1,132 @@
+/* Petugas Panel Styles */
+.petugas-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.quick-actions {
+    margin-bottom: 30px;
+}
+
+.action-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.action-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #2d3748;
+    transition: all 0.3s;
+    border: 1px solid #e2e8f0;
+}
+
+.action-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.action-card.setor:hover {
+    border-color: #48bb78;
+}
+
+.action-card.tarik:hover {
+    border-color: #ed8936;
+}
+
+.action-card.cari:hover {
+    border-color: #4299e1;
+}
+
+.action-card.laporan:hover {
+    border-color: #9f7aea;
+}
+
+.action-icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.action-card h3 {
+    margin-bottom: 10px;
+}
+
+.action-card p {
+    color: #718096;
+    font-size: 0.9em;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.info-box {
+    background: #ebf8ff;
+    border: 1px solid #90cdf4;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:220px;
+    min-height:100vh;
+    background:#2c3e50;
+    color:white;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-top:20px;
+}
+
+.sidebar p{
+    text-align:center;
+    font-size:14px;
+    color:#ccc;
+}
+
+.sidebar a{
+    display:block;
+    padding:12px 20px;
+    color:white;
+    text-decoration:none;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.sidebar a:hover{
+    background:#34495e;
+}
+
+.content{
+    flex:1;
+    padding:30px;
+    background:#f4f6f9;
+}
+
